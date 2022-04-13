@@ -3,8 +3,7 @@ const { Server } = require("socket.io");
 const io = new Server({
 	cors: {
 		origin: [
-			"https://gregarious-meerkat-069dbb.netlify.app",
-			"http://localhost:8000"
+			"https://gregarious-meerkat-069dbb.netlify.app"
 		]
 	}
 });
