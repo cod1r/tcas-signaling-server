@@ -17,4 +17,4 @@ io.on("connection", (socket) => {
 });
 
 console.log("listening...");
-io.listen(3001);
+io.listen(process.env.port);
